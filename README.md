@@ -13,6 +13,6 @@ Ordered power, clock, reset, and isolation control for a hardware island.
 
 Run `make test` and `make synth`. Interface, design, test procedure and measurements appear under `docs/`.
 
-This is an independently testable RTL control primitive with an explicit scope boundary; device qualification is separate.
+**Architecture:** Ordered power, clock, reset and isolation sequencing with acknowledgment and fault control.
 
 Project owner: Sundaram S S.
