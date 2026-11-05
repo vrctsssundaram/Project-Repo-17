@@ -1,4 +1,4 @@
-# PowerIsland-FSM
+# Power-island sequencer
 
 Ordered power, clock, reset, and isolation control for a hardware island.
 
