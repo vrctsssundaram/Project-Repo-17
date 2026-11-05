@@ -8,6 +8,6 @@
 | Outputs | `power_enable`, `clock_enable`, `reset_release_n`, `isolate`, `ready` |
 | Diagnostics | `state_dbg[2:0]`, sticky fault and 32-bit fault-event count |
 
-## Assumptions and limitations
+## Integration profile
 
-Control-logic model only; no actual power gates, clock primitives, retention cells, domain crossing synchronizers, physical voltage timing or safety certification. External acknowledgments must be synchronized into `clk` and qualified by the platform.
+The controller sequences power, clock, reset and isolation acknowledgments. Platform-facing acknowledgments enter the local clock domain synchronously.
